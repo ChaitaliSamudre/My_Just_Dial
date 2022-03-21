@@ -1,0 +1,9 @@
+img {
+    max-width: 40%;
+}
+devsite-header .devsite-product-name-wrapper {
+    -webkit-box-align: center;
+    align-items: center;
+    height: 36px;
+    margin: 6px 0;
+}
