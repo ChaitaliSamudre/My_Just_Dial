@@ -1,0 +1,22 @@
+.header .navigation {
+    background: #F0F0F0;
+}
+
+.container {
+    max-width: 1024px;
+    width: 1024px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, 
+nav, section, summary {
+    display: block;
+}
+
+.wrapper {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.pl-5 {
+    padding-left: 5px;
+}
