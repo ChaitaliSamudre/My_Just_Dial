@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            //save data to session storage
+            sessionStorage.setItem('Group',"UI");
+            sessionStorage.setItem('Company',"THBS");
+
+            //Get saved data from sessionStorage
+            let data = sessionStorage.getItem('Group');
+            let data0 = sessionStorage.getItem('Company');
+
+            console.log(data);
+
+            //Reomve saved data from session storage
+            //sessionStorage.removeItem('UI');
+            localStorage.setItem('personalAddress','BNG')
+            let data1 = localStorage.getItem('BNG');
+            console.log(data1);
+        </script>
+    </head>
+    <body>
+        <h1>This is the paragraph</h1>
+    </body>
+</html>

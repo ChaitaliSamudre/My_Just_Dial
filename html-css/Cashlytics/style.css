@@ -14,7 +14,7 @@ body {
 }
 
 .next-conatiner {
-    margin: -37px auto 20px;
+    margin: 150px auto;
     width: 900px;
     height: 350px;
     background-color: #fff;
@@ -27,12 +27,12 @@ body {
     padding: 20px;
 }
 
-.thbs-row {
-    padding: 20px;
+.next-row {
+    padding: 80px 90px;
 }
 
-.next-row {
-    padding: 20px;
+.button {
+    padding: 0px 90px;
 }
 
 .t-color {
@@ -65,5 +65,17 @@ body {
 .s-border {
      border-bottom: 1px solid gray;
 }
+.center {
+display: inline-block;
+margin-left: 50%;
+margin-right: 50%;
+}
+
+.center-content {
+    display: block;
+    margin-left: 40%;
+    margin-right: 45%;
+    width: 300px;
+    }
 
 
