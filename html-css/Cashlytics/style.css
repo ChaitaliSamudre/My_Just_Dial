@@ -78,4 +78,11 @@ margin-right: 50%;
     width: 300px;
     }
 
+    @media screen and (max-width: 600px ) and (min-width: 400px) {
+        body {
+        background-color: rebeccapurple;
+        color: white;
+        }
+        }
+
 

@@ -1,0 +1,191 @@
+.button {
+    border: none;
+    color: blue;
+    padding: 14px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px -303px;
+    margin-left: -148px;
+
+}
+.button1 {
+    background-color: #4285f4;
+    display: oval;
+}
+
+header{
+    width: 100vw;
+    height: 60px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+}
+
+header{
+    width: 100vw;
+    height: 60px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+}
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+.row-2[_ngcontent-c9] {
+    display: flex;
+    border-top: 1px solid #dadce0;  
+}
+
+header .logo img{
+ height: 50px;
+ margin-top: 5px; /* Optical alignment of the logo */
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+.top-img1{
+    width: 535px;
+    height: 400px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+
+.thbs-text1{
+  color: #4285f4;;
+   margin-top: 79px;
+    margin-left: 50px;
+    font-size: 30px;
+    padding: top 100px;
+    line-height: 1;
+}
+
+.ALWAYS-ON1{
+    color:black;
+    margin-right: 482px;
+    font-size: 20px;
+    float: right;
+    padding-top: -39px;
+}
+
+.thbs-text2{
+    color:black;
+    margin-top: -20px;
+    margin-left: 45px;
+    font-size: 27px;
+    padding: top 100px;
+    padding: left 200px; 
+}
+
+.center{
+margin-left: 621px;
+width: 50%;
+padding-top: 85px
+}
+
+.button-two{
+    border: none;
+    color: blue;
+    padding: 14px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px -303px;
+    margin-left: 47px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+     background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+.pagination a:first-child {
+   border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.img1{
+    width: 160%;
+    bottom: -15%;
+    position: absolute;
+    border-radius: 20px;
+left: 5%;
+}
+
+h2{
+    text-align: center;
+}
+
+.medium
+{
+        padding: 29px 13px 20px;
+}
+
+.colored-top-border[_nghost-c31] 
+{
+    padding: 20px;
+    border-top-width: 10px;
+}
+
+.section-card[_ngcontent-c13] 
+{
+    border: 1px solid #dadce0;
+    cursor: pointer;
+}
+
+    .section-card {
+        background-color: #fff;
+        border: 1px solid #dadce0;
+        border-radius: 8px;
+        margin: 0 0 20px;
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        min-width: 0;
+        overflow: hidden;
+        transition: box-shadow .3s linear;
+    }
+    
+    [_nghost-c31] {
+        border-top: 1px solid #dadce0;
+        padding: 29px 20px 20px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+
+    .nav-link {
+        padding: 39px;
+        
+    }
+    
+
+
+
