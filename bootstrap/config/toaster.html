@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+</head>
+
+<body>
+  
+  <button class="btn btn-primary" id="toastmsg">toaster message</button>
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <i class="bi-alarm"></i>
+      <strong class="me-auto">Please take action</strong>
+      <small>just now</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+
+    <div class="toast-body">
+
+      Hello, world! This is a toast message.
+
+    </div>
+
+  </div>
+
+  <script>
+
+    let mybt=document.getElementById('toastmsg');
+
+    let toastermessage=document.getElementById('liveToast');
+
+    document.getElementById('toastmsg').addEventListener('click',function(){
+
+        alert('Hello!! this is toast message')
+
+    });
+
+</script>
+</body>
+
+</html>
