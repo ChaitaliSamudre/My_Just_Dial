@@ -12,15 +12,17 @@
 <body>
     <div class="alert alert-primary" role="alert">
         A simple primary alert—check it out!
+        <button id="close-alert" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
+    
     <div id="alert-holder">
-        <!--  -->
     </div>
-    <button id="btn" class="btn btn-primary">
+    
+    <button id="show-alert" class="btn btn-primary">
         Click Here
     </button>
     <script>
-        let mycloseBtn = document.getElementById("close-alert");
+       let mycloseBtn = document.getElementById("close-alert");
 
         mycloseBtn.addEventListener('click',function () {
             let alertNode = document.querySelector('.alert');
@@ -33,10 +35,10 @@
 
 
         btnalert.addEventListener('click', function () {
-            let divcreate = document.createElement('div');
+            let wrapper = document.createElement('div');
             let altelement = "<div  class='alert alert-primary alert-dismissible' role='alert'>A simple primary alert—check it out!</div> ";
-            divcreate.innerHTML = altelement;
-            alhold.append(divcreate);
+            wrapper.innerHTML = altelement;
+            alhold.append(wrapper);
         });
     </script>
 </body>
