@@ -64,7 +64,7 @@ console.log(`=======Index of========`);
 console.log(ind.indexOf(6));
 
 console.log(`=======Joining array========`);
-console.log(ind.join('-'));
+console.log(ind.join('*'));
 
 
 // MAP is used to transform or modifed array
