@@ -33,5 +33,5 @@ console.log(personDetails);
 //console.log(typeof classInfo);
 
 //update value inside object
-//console.log(personDetails.lname = 'Dhamande');
+console.log(personDetails.lname = 'Dhamande');
 personDetails.lname = 'Dhamande';
