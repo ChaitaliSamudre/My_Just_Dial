@@ -3,7 +3,7 @@ var DetailInfo = /** @class */ (function () {
     }
     DetailInfo.prototype.getDetailsList = function (list, key) {
         return list.filter(function (ele, inx, arr) {
-            return ele.name.includes(key || 'Chaitali');
+            return ele.name.includes(key || 'Samudre');
         });
     };
     return DetailInfo;
