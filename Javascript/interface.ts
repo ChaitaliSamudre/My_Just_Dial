@@ -12,6 +12,6 @@ class Person implements Demo {
     list = ['a','b',1, 2];
 
     constructor ( ) {
-        getFullname : 'assssd';
+        getFullname() : 'assssd';
      }
 }
